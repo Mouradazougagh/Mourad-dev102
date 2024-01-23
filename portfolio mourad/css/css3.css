@@ -1,0 +1,134 @@
+
+h2{ 
+    border-radius: 80px;
+    font-size: 20px;
+    padding: 40px;
+}
+#h1{
+    background-color: gray;
+    width: 200px;
+    border-top-right-radius: 12px;
+    color: beige;
+}
+h2::first-letter{
+color: gray;
+font-size: 40px;
+}
+#a{
+    color: gray;
+}
+#a:hover{
+    color: beige;
+}
+#img1{
+    width: 400px;
+    border: 2px solid gray;
+    border-top-right-radius: 15px;
+    
+
+}
+#img1:hover{
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+
+}
+
+::selection{
+    background-color: yellow;
+}
+
+#l{
+margin-right: 10px;
+font-size: 25px;
+font-weight: bold;
+background-color: beige;
+border-top-right-radius: 12px;
+}
+a{
+    color: gray;
+}
+
+#l:hover{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: gray;
+    border-top-right-radius: 12px;
+}
+a:hover{
+    color: beige;
+}
+#img2{
+    height: 70px;
+    width: 70px;
+}
+#img2:hover{
+    height: 80px;
+    width: 80px;
+    box-shadow: gray 5px 3px;
+}
+#l1{
+    background-color: white;
+    border: 2px solid black;
+    border-top-right-radius: 25px;
+    color: gray;
+    padding: 10px;
+}
+#l1:hover{
+    background-color: beige;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: black;
+}
+#l2{
+    background-color: white;
+    border: 2px solid gray;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
+#l2:hover{
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin{
+    background: rgb(66, 112, 228);
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }

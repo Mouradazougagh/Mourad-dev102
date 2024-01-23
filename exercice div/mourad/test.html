@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin-left: 80px;
+            background-color: bisque;
+        }
+
+        h1{
+            width: 400px;
+            background-color: peru;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            text-align: center;
+            border: solid ;
+            margin: 2px;
+            padding: 5px;
+        }
+        img{
+            border: solid;
+            border-radius: 20px;
+        }
+        .flex{
+            background-color: powderblue;
+            border-radius: 25px;
+            width: 890px;
+            display: flex;
+            border: solid;
+
+        }
+        .flex>div{
+            margin: 5px;
+            padding: 0px;
+            padding-bottom: 40px;
+            flex-direction: column;
+        }
+        .flex2{
+            display: flex;
+            flex-direction: column;
+            background-color: orange;
+            border-radius: 25px;
+            border: solid;
+            text-align: center;
+
+
+
+        }
+        @media all and (max-width: 910px) {
+            body{
+                background-color:bisque;
+            }
+
+
+            .flex .p{
+                display:none;
+
+            }
+
+        .flex{
+            background-color: powderblue;
+            border-radius: 25px;
+            width: 450px;
+            display: flex;
+            border: solid;
+
+        }
+        .flex2{
+            display: flex;
+            flex-direction: column;
+            background-color: orange;
+            border-radius: 25px;
+            text-align: center;
+
+
+
+        }
+
+    }
+
+    @media all and (max-width: 325px) {
+            body{
+                background-color:bisque;
+            }
+            #b{
+                display: none;
+            }
+            h1{
+            width: 200px;
+            background-color: peru;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border: solid ;
+            margin: 2px;
+            padding: 5px;
+        }
+
+
+            .flex .p {
+                display:none;
+
+            }
+
+        .flex{
+            background-color: powderblue;
+            border-radius: 25px;
+            width: 220px;
+            display: flex;
+            border: solid;
+
+        }
+        .flex2{
+            display: flex;
+            flex-direction: column;
+            background-color: orange;
+            border-radius: 25px;
+            text-align: center;
+
+
+
+        }
+        body{
+            margin-left: 5px;
+            background-color: bisque;
+        }
+
+    }
+
+        
+
+
+
+    </style>
+    <h1>MOURAD SHOP </h1>
+
+<br><br>
+<div class="flex" >
+    <div class="p"><img class="p"  src="..//jacket.jpg" width="200px">    <DIV class="flex2"><strong> winterq jacket <br> $99.99</strong></DIV></div>
+    <div class="p"><img class="p" src="..//jacket.jpg" width="200px">    <DIV class="flex2"><strong>winter jacket <br> $99.99</strong></DIV></div>
+    <div><img src="..//jacket.jpg" width="200px">     <DIV class="flex2"><strong>winter jacket <br> $99.99</strong></DIV></div>
+    <div id="b" ><img src="..//jacket.jpg" width="200px">     <DIV class="flex2 "><strong>winter jacket <br> $99.99</strong></DIV></div>
+
+</div>
+
+
+
+
+</body>
+
+
+</html>

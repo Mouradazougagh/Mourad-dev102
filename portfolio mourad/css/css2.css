@@ -1,0 +1,80 @@
+
+#l1{
+    background-color: gray;
+    padding: 5px;
+    width: 250px;
+    border:2px solid gray ;
+    padding-left: 10px;
+    border-top-right-radius: 25px;
+    background-color: rgba(37, 7, 64, 0.573);
+    color: white;
+    
+}
+#l1:hover{
+    background-color: gray;
+    padding: 5px;
+    width: 250px;
+    border:2px solid gray ;
+    padding-left: 10px;
+    border-radius: 25px;
+    background-color: rgba(37, 7, 64, 0.573);
+    color: white;
+    
+}
+
+#h1{
+    background-color: gray;
+    width: 120px;
+    border-top-right-radius: 12px;
+    color: beige;
+}
+#a{
+    color: gray;
+}
+#a:hover{
+    color: beige;
+}
+#img3{
+    border-top-right-radius: 25px;
+    border: 2px solid gray;
+    margin-left: 100px;
+}
+#img3:hover{
+    border-radius: 25px;
+    border: 2px solid beige;
+    margin-left: 100px;
+}
+::selection{
+    background-color: yellow;
+}
+
+#l{
+margin-right: 10px;
+font-size: 25px;
+font-weight: bold;
+background-color: beige;
+border-top-right-radius: 12px;
+}
+a{
+    color: gray;
+}
+
+#l:hover{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: gray;
+    border-top-right-radius: 12px;
+}
+a:hover{
+    color: beige;
+}
+#img2{
+    height: 70px;
+    width: 70px;
+}
+#img2:hover{
+    height: 80px;
+    width: 80px;
+    box-shadow: gray 5px 3px;
+}
